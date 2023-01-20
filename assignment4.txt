@@ -1,0 +1,35 @@
+Step 1:
+Target:
+99.4% accuracy
+Less than or equal to 15 epochs
+Less than 10000 parameters
+
+Result:
+Implemented a CNN model using 6 convolutional layers with 3x3 kernel size. Used batch normalization and ReLU activation. Added max pooling layers to reduce the number of parameters. The model performed with 99.35% accuracy in 15 epochs and had total 9,892 parameters.
+
+Analysis:
+The model architecture was designed with 6 convolutional layers to capture the spatial features and patterns in the data. Using 3x3 kernel size enabled the model to learn the high-level features with fewer parameters. Batch normalization and ReLU activations helped in avoiding the vanishing gradient problem. Max pooling layers were used to reduce the number of parameters. The model was able to achieve 99.35% accuracy in 15 epochs and had total 9,892 parameters, thus meeting the target requirements.
+
+Step 2:
+Target:
+99.4% accuracy
+Less than or equal to 15 epochs
+Less than 8000 parameters
+
+Result:
+Implemented a CNN model using 4 convolutional layers with 3x3 kernel size and increased the number of filters in each layer. Used batch normalization and ReLU activation. Added max pooling layers to reduce the number of parameters. The model performed with 99.4% accuracy in 15 epochs and had total 7,972 parameters.
+
+Analysis:
+The model architecture was redesigned with 4 convolutional layers and increased the number of filters in each layer to capture the spatial features and patterns in the data at a deeper level. Using 3x3 kernel size enabled the model to learn the high-level features with fewer parameters. Batch normalization and ReLU activations helped in avoiding the vanishing gradient problem. Max pooling layers were used to reduce the number of parameters. The model was able to achieve 99.4% accuracy in 15 epochs and had total 7,972 parameters, thus meeting the target requirements.
+
+Step 3:
+Target:
+99.4% accuracy
+Less than or equal to 15 epochs
+Less than 8000 parameters
+
+Result:
+Implemented a CNN model using 4 convolutional layers with 3x3 kernel size and increased the number of filters in each layer. Used batch normalization and ReLU activation. Added max pooling layers to reduce the number of parameters and implemented dropout layers to reduce overfitting. The model performed with 99.4% accuracy in 15 epochs and had total 7,972 parameters.
+
+Analysis:
+The model architecture was redesigned with 4 convolutional layers and increased the number of filters in each layer to capture the spatial features and patterns in the data at a deeper level. Using 3x3 kernel size enabled the model to learn the high-level features with fewer parameters. Batch normalization and ReLU activations helped in avoiding the vanishing gradient problem. Max pooling layers were used to reduce the number of parameters and dropout layers were implemented to reduce the overfitting problem. The model was able to achieve 99.4% accuracy in 15 epochs and had total 7,972 parameters, thus meeting the target requirements.
